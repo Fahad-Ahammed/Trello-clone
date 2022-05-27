@@ -1,0 +1,44 @@
+.card-create {
+    width: 100%;
+    min-height: 5em;
+    background-color: #e8e9ed;
+    border-radius: 5px;
+    margin-top: .4em;
+    padding-top: .5em;
+  }
+  .card-create-input {
+    min-width: 100%;
+    padding: .4em;
+    margin-bottom:.5em;
+    font-size:.9rem;
+    padding-left: .6em;
+    padding-top: .5em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+  }
+  .card-create-add-card{
+    display: flex;
+  }
+  .card-create-btn{
+      background-color: #0079BF;
+      border: none;
+      color: white;
+      padding: .5em .8em;
+      border-radius: 5px;
+      font-size: 1rem;
+      margin-right: 1em;
+      cursor: pointer;
+  }
+  .card-create-btn:hover{
+      background-color: #026AA7;
+  }
+  
+  
+  
+  .fas{
+  align-self: center;
+    cursor: pointer;
+    font-size: 1.4rem;
+    
+  }

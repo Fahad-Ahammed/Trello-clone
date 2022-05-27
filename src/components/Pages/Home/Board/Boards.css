@@ -1,0 +1,37 @@
+.boards-header{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1em;
+   
+}
+.boardContainer{
+    display: flex;
+    padding: 1em;
+    padding-left: 0;
+    flex-wrap: wrap;
+    gap:1em;
+    width: 80%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+.boards{
+    height: 9.3em;
+    color: white;
+    font-weight:500;
+    border-radius: 10px;
+    margin-top:1em;
+    text-align: left;
+    width: 22%;
+    padding:1em ;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    text-decoration: none;
+}
+.boards:last-child{
+    background-color:violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

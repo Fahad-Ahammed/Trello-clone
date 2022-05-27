@@ -1,0 +1,54 @@
+body{
+  max-height: 100vh;
+}
+
+.list-wrapper {
+  display: flex;
+  height: 94vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: scroll;
+  align-items: flex-start;
+  gap: .7em;
+  padding-left: 2em;
+  padding-right:1em;
+  overflow-x: auto;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+
+}
+
+.list-container {
+  margin-top: 3em;
+  min-width: 16.6em;
+  min-height: 4.6em;
+  background-color: #e8e9ed;
+  border-radius: 4px;
+  padding: 0.5em;
+  max-height: 83vh;
+}
+.fa-trash {
+  color: red;
+  cursor: pointer;
+}
+
+.intial-btn {
+  margin-top: 3em;
+  min-width: 16.6em;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(88, 88, 88, 0.8);
+  color: white;
+  padding: 0.6em;
+  cursor: pointer;
+  padding-left: 1em;
+  text-align: left;
+}
+.intial-btn:hover {
+  background-color: rgb(88, 88, 88, 1);
+}

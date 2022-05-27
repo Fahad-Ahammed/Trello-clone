@@ -1,0 +1,33 @@
+.checkitem-create{
+    padding-right: .8em;
+    margin-left: 2em;
+    margin-top:1em;
+
+}
+.checkitem-input{
+    min-width: 100%;
+    padding: .6em;
+    border-radius: 5px;
+    margin-bottom:.3em;
+    font-size:.95rem;
+    outline: none;
+    padding-left: .6em;
+    border-color:#0079BF;
+    margin-bottom: .5em;
+}
+
+.checkitem-add-btn{
+    background-color: #0079BF;
+    border: none;
+    color: white;
+    padding: .5em .6em;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-right: 1em;
+    cursor: pointer;
+    
+}
+.checkitem-add-btn:hover{
+  background-color: #026AA7;
+}
+

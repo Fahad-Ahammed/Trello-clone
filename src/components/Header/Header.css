@@ -1,0 +1,17 @@
+.header {
+  background-color: #026AA7;
+  color: white;
+  padding: 0.8em;
+  padding-left: 2em;
+  height: 6vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  gap: 0.3em;
+  text-decoration: none;
+  align-items: center;
+}
+.trello,
+.fa-trello {
+  font-size: 1.5rem;
+}
